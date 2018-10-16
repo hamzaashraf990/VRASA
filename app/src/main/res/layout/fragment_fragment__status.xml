@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VehicleSharing_Module.Fragment_Status">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:id="@+id/layout">
+
+        <EditText
+            android:id="@+id/ed_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Write a Status"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:text="" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:text="Upload"
+            android:layout_marginHorizontal="10dp"
+            android:id="@+id/btn_status"
+            />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_userinformation"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layout"
+        android:layout_height="match_parent"
+
+        >
+
+    </ListView>
+
+
+</RelativeLayout>

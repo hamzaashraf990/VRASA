@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/appointmentbooking"
+            android:title="Appointment Booking" />
+        <item
+            android:id="@+id/vehiclerepair"
+            android:title="Vehicle Repair" />
+        <item
+            android:id="@+id/vehiclesharing"
+            android:title="Vehicle Sharing" />
+        <item
+            android:id="@+id/appointmentstatus"
+            android:title="Appointment Status" />
+        <item
+            android:id="@+id/faqs"
+            android:title="FAQ's"
+            />
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out"
+            />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contactus"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/about"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

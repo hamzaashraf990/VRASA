@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentBooking_Module.SubmitAppointment">
+
+    <EditText
+        android:id="@+id/appointmentdate"
+        android:hint="Date/Month/Year"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#3664FA"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/appointmenttime"
+        android:hint="Appointment Time"
+        android:layout_below="@+id/appointmentdate"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="time"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#3664FA"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/appointmentaddress"
+        android:layout_below="@+id/appointmenttime"
+        android:layout_marginTop="20dp"
+        android:hint="Home Address"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#3664FA"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/submit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Submit Appointment"
+        android:onClick="btn_submit"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#F7F7F7"
+
+        android:layout_below="@+id/appointmentaddress"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+    <Button
+        android:id="@+id/cancelappointment"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="DisCard Appointment"
+        android:layout_below="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#F7F7F7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        />
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_home"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Back to Main"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_below="@+id/cancelappointment"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:background="@drawable/buttons_background"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textSize="15dp"-->
+    <!--android:textColor="#F7F7F7"-->
+    <!--android:layout_marginLeft="30dp"-->
+    <!--android:layout_marginRight="30dp"-->
+
+
+    <!--/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/appointment"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Appointent ListView"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--/>-->
+
+</RelativeLayout>

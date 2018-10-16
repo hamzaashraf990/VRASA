@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authantication_Login">
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+
+        android:background="@drawable/custom_edit"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+
+        android:gravity="center"
+        android:hint="Enter Your Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/phone_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/get_code"
+        android:layout_marginTop="139dp"
+
+        android:background="@drawable/custom_edit"
+        android:digits="+0123456789"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="phone" />
+
+
+    <Button
+        android:id="@+id/get_code"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/code_text"
+        android:layout_marginTop="199dp"
+
+        android:background="@drawable/custom_button"
+        android:text="Get Verification Code" />
+
+    <EditText
+        android:id="@+id/code_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="192dp"
+        android:background="@drawable/custom_edit"
+        android:ems="10"
+        android:hint="Enter Code"
+        android:inputType="phone"></EditText>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginBottom="119dp"
+        android:background="@drawable/custom_button"
+        android:text="Sign Up" />
+</RelativeLayout>

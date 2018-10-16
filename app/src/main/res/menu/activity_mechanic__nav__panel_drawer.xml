@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bookingrequests"
+            android:title="Appointment Booking Requests" />
+        <item
+            android:id="@+id/repairrequests"
+            android:title="Vehicle Repair Requests" />
+        <item
+            android:id="@+id/appointments"
+            android:title="Appointment Details" />
+        <item
+            android:id="@+id/m_faqs"
+            android:title="FAQ's" />
+        <item
+            android:id="@+id/m_logout"
+            android:title="Log Out" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/m_contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/m_about"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>

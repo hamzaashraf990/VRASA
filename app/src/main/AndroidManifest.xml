@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.darkdeveloper.vrasavehiclerepairingandsharingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Authantication_Login" />
+        <activity android:name=".AppointmentBooking_Module.ServiceCategory" />
+        <activity android:name=".AppointmentBooking_Module.SP_OilChange" />
+        <activity android:name=".AppointmentBooking_Module.SP_Tunning" />
+        <activity android:name=".AppointmentBooking_Module.SP_DetailCheckup" />
+        <activity android:name=".AppointmentBooking_Module.SP_BrakeService" />
+        <activity android:name=".AppointmentBooking_Module.SP_EngineService" />
+        <activity android:name=".AppointmentBooking_Module.SP_BatteryReplacement" />
+        <activity android:name=".AppointmentBooking_Module.VehicleCompany" />
+        <activity android:name=".AppointmentBooking_Module.HondaYear" />
+        <activity android:name=".AppointmentBooking_Module.HondaModel" />
+        <activity android:name=".AppointmentBooking_Module.ToyotaYear" />
+        <activity android:name=".AppointmentBooking_Module.ToyotaModel" />
+        <activity android:name=".AppointmentBooking_Module.SuzukiYear" />
+        <activity android:name=".AppointmentBooking_Module.SuzukiModel" />
+        <activity android:name=".AppointmentBooking_Module.MazdaModel" />
+        <activity android:name=".AppointmentBooking_Module.MazdaYear" />
+        <activity android:name=".AppointmentBooking_Module.HyundaiModel" />
+        <activity android:name=".AppointmentBooking_Module.HyundaiYear" />
+        <activity android:name=".AppointmentBooking_Module.SubmitAppointment" />
+        <activity
+            android:name=".Customer_Nav_Panel"
+            android:label="@string/title_activity_customer__nav__panel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Mechanic_Nav_Panel"
+            android:label="@string/title_activity_mechanic__nav__panel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Customer_FAQs" />
+        <activity android:name=".Mechanic_FAQs" />
+        <activity android:name=".Contact_Us" />
+        <activity android:name=".About_Us" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".VehicleRepairing_Module.CustomerMap"
+            android:label="@string/title_activity_customer_map" />
+        <activity
+            android:name=".VehicleRepairing_Module.CustomerMap_PendingRequests"
+            android:label="@string/title_activity_customer_map__pending_requests" />
+        <activity
+            android:name=".VehicleRepairing_Module.MechanicMap"
+            android:label="@string/title_activity_mechanic_map" />
+        <activity android:name=".VehicleRepairing_Module.VehicleRepair_UserRequests" />
+        <activity android:name=".UserPanels">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VehicleSharing_Module.VehicleSharing"
+            android:label="@string/title_activity_vehicle_sharing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".VehicleSharing_Module.Import_PhoneContacts" />
+        <activity android:name=".VehicleSharing_Module.UseerInformation" />
+        <activity android:name=".Customer_appointment_status"></activity>
+    </application>
+
+</manifest>

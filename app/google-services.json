@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "901296677574",
+    "firebase_url": "https://vrasa-ae51d.firebaseio.com",
+    "project_id": "vrasa-ae51d",
+    "storage_bucket": "vrasa-ae51d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901296677574:android:fbb248c4648fe6ed",
+        "android_client_info": {
+          "package_name": "com.example.darkdeveloper.vrasavehiclerepairingandsharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901296677574-jdga3g4nukpfg8l7rhjv105qkvstdqak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.darkdeveloper.vrasavehiclerepairingandsharingapp",
+            "certificate_hash": "8ee6b9501aee4d52c6e8666a8e84bf13f0dd335d"
+          }
+        },
+        {
+          "client_id": "901296677574-v5nrgif89ojbk4ldujvhos0l6t2lbbmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC21h2THBhxJxay1O6g840XpCJPRFGgfl8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901296677574-v5nrgif89ojbk4ldujvhos0l6t2lbbmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/name_customer"
+           android:textSize="18dp"
+           android:hint="Name"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/phone_customer"
+           android:layout_below="@id/name_customer"
+           android:hint="Phone Number"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/location_customer"
+           android:layout_below="@id/phone_customer"
+
+           android:hint="Location"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/status_customer"
+           android:layout_below="@id/location_customer"
+
+           android:hint="Status"/>
+
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/accept_customerReq"
+           android:background="@drawable/custom_button"
+           android:text="ACCEPT REQUEST"
+           android:layout_marginRight="20dp"
+           android:layout_toRightOf="@id/phone_customer"
+
+
+           />
+
+
+
+
+
+
+
+
+
+
+   </RelativeLayout>
+</RelativeLayout>
